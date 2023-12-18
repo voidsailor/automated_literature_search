@@ -35,12 +35,12 @@ We used the script to extract a list of potentially interesting articles for our
 3. In colab, click on "file", "open notebook", "GitHub" and paste the url.
 4. Uncomment the code line in the first code cell and execute the script.
 
-### Local installation using CONDA
+### Local installation using ANACONDA
 
-1. If you are unfamiliar with CONDA, install the [ANACONDA Navigator](https://docs.anaconda.com/free/navigator/index.html).
+1. Install the [ANACONDA Navigator](https://docs.anaconda.com/free/navigator/index.html).
 2. Clone this repo with git or download the repo.
 3. Open ANACONDA navigator, go to "Environments", "Import", Select the file "automated_literature_search.yaml" and click "Import". This will install all required dependencies locally. This may take a while.
-4. Select the environment by clicking on it, press the green "Play" button and select "open with jupyter notebook"
+4. Activate the environment by clicking on it, press the green "Play" button, and select "open with jupyter notebook"
 5. The Jupyter file browser opens in your web browser. Navigate to the script (automated_literature_search.ipynb) and open it.
 
 ## How to use
@@ -60,3 +60,5 @@ We use **pandas** for xlsx export, **networkx** to generate force-directed netwo
 ## Publication
 
 t.b.a.
+
+The original literature search files of our publication "Microbiome modeling: A beginner's guide" can be found in "./review_query_outputs".
