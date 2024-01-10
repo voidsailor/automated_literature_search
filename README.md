@@ -10,7 +10,7 @@ This repo contains a [jupyter notebook](https://jupyter.org/) (automated_literat
 
 You can use this script to obtain an overview of one research domain.
 
-We used the script to extract a list of potentially interesting articles for our literature review on microbiome modeling (submission pending).
+We used the script to extract a list of potentially interesting articles for our literature review "Microbiome modeling: A beginner's guide" (submission pending). The original literature search output files of this publication can be found in ["./review_query_outputs"](https://github.com/voidsailor/automated_literature_search/tree/main/review_query_outputs).
 
 ## How it works
 
@@ -62,5 +62,3 @@ We use **pandas** for xlsx export, **networkx** to generate force-directed netwo
 ## Publication
 
 t.b.a.
-
-The original literature search files of our publication "Microbiome modeling: A beginner's guide" can be found in "./review_query_outputs".
